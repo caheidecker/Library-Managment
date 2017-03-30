@@ -1,0 +1,6 @@
+﻿  Main.cpp
+c:\users\caleb heidecker\documents\visual studio 2015\projects\library_managment_sys\library_managment_sys\main.cpp(66): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+  Book.cpp
+  Bill.cpp
+  Generating Code...
+  Library_Managment_Sys.vcxproj -> C:\Users\Caleb Heidecker\Documents\Visual Studio 2015\Projects\Library_Managment_Sys\Debug\Library_Managment_Sys.exe
