@@ -1,22 +1,12 @@
-//Library System
-//Caleb Heidecker
 #include <iostream>
 #include <string>
 #include <sstream>		// for stringstream
 #include <vector>		// for vector container
 #include "Book.h"
 #include "Bill.h"
-/*
-#include "Library.h"
+#include "LibraryManager.h"// class Library
 #include "User.h"
-*/
 
-////////////////////////////////////////
-//Main.cpp
-////////////////////////////////////////
-
-
-// this should be a std::map<ISBN,Book>
 typedef std::vector<LIBRARY::Book> BookContainer_t;
 typedef std::vector<LIBRARY::Bill> UserContainer_t;
 

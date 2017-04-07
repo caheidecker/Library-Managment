@@ -9,16 +9,15 @@ namespace LIBRARY
 	{
 	public:
 		// default Ctor
-		Bill() = delete;		// default ctor should be deleted, since you cannot have a book without a title or author,
-								// and since a book with default/empty values is useless and meaningless?
+		Bill() = delete;	
 
 								// non-default Ctor
-		Bill(const std::string& user_name, const std::string& address, const std::string& CC);
+		Bill(const std::string& CC, const std::string securityNum, const std::string expirationDate);
 
 		// getters
-		std::string get_address() const;
 		std::string	get_CC() const;
-		std::string	get_user_name() const;
+		std::string get_securityNum() const;
+		std::string get_expirationDate() const;
 
 		// setters
 		//Handled by book.h
@@ -27,11 +26,10 @@ namespace LIBRARY
 		void print() const;
 
 	private:
-		std::string		m_address;
 		std::string		m_CC;
-		std::string		m_user_name;
+		std::string		m_securityNum;
+		std::string		m_expirationDate;
 	};
 }
-
 #endif
 
