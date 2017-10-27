@@ -16,7 +16,7 @@ namespace LIBRARY
 
 		// getters
 		std::string get_address() const;
-		std::string	get_user_name() const;
+		std::string get_user_name() const;
 		std::string get_phoneNum() const;
 		std::string get_DOB() const;
 		// setters
